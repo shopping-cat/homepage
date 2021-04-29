@@ -2,6 +2,9 @@ import React from 'react'
 import styles from '../styles/Home.module.css'
 
 const Home = () => {
+
+    if (typeof window === 'undefined') return null
+
     return (
         <div>
             {/* <div>
