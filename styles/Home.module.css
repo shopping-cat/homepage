@@ -1,3 +1,28 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #E9A0A0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .title {
+  font-size: 24pt;
+  color:#fff;
+}
+.subTitle {
   font-size: 15pt;
+  color:#fff;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.downloadBtn {
+  border-radius: 16px;
+  height: 32px;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+margin-top: 16px;
+/* font-size: 15px; */
 }
