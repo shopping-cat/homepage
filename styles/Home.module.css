@@ -1,28 +1,47 @@
 .container {
   width: 100vw;
   height: 100vh;
-  background-color: #E9A0A0;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  overflow: hidden;
+}
+.backgroundImage {
+  width:100vw;
+}
+.right {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  flex-direction: column;
 }
 .title {
-  font-size: 24pt;
-  color:#fff;
+  font-size: 64px;
+  color:#E9A0A0;
 }
 .subTitle {
-  font-size: 15pt;
-  color:#fff;
+  font-size: 32px;
+  color:#E9A0A0;
   margin-top: 24px;
   margin-bottom: 16px;
 }
+.left {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  flex-direction: column;
+}
 .downloadBtn {
-  border-radius: 16px;
-  height: 32px;
-  background-color: #fff;
+  padding: 12px 24px;
+  border: 1px solid #C4C4C4;
+  border-radius: 4px;
   align-items: center;
   justify-content: center;
-  padding: 0 16px;
-margin-top: 16px;
-/* font-size: 15px; */
+  margin-top: 24px;
+  
+}
+.downloadText {
+  color:#8B8B8B;
+  font-size: 20px;
+margin-left: 8px;
 }
