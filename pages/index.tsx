@@ -23,7 +23,7 @@ const Home = () => {
                     <IoLogoApple size={24} fill={GRAY} />
                     <div className={styles.downloadText} >App Store</div>
                 </div></a>
-                <a href={APPSTORE_URL} ><div className={styles.downloadBtn} >
+                <a href={PLAYSTORE_URL} ><div className={styles.downloadBtn} >
                     <IoLogoGooglePlaystore size={24} fill={GRAY} />
                     <div className={styles.downloadText} >Google Play</div>
                 </div></a>
