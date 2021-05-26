@@ -1,13 +1,19 @@
 .container {
   width: 100vw;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.infoContainer {
+  width: 100vw;
   height: 100vh;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  overflow: hidden;
 }
 .backgroundImage {
-  width:100vw;
+  width: 100vw;
+  height:100vh;
+  object-fit: contain;
 }
 .right {
   position: absolute;
@@ -48,7 +54,7 @@
 .downloadText {
   color:#8B8B8B;
   font-size: 20px;
-margin-left: 8px;
+  margin-left: 8px;
 }
 
 @media ( max-width: 480px ) {
@@ -61,4 +67,42 @@ margin-left: 8px;
   .subTitle {
     font-size: 24px;
   }
+}
+
+
+.bottom {
+  width: 100vw;
+  background-color: #F5F5F5;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 64px 10%;
+flex-wrap: wrap;
+}
+.bottom > div {
+  flex-direction: column;
+  margin-right: 20%;
+}
+.bottom > div > h2 {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 20;
+}
+
+.bottom > div > a {
+  margin-bottom: 16px;
+  font-size: 15px;
+  color:#8B8B8B; 
+}
+.bottom > div > span {
+  margin-bottom: 16px;
+  font-size: 15px;
+  color:#8B8B8B; 
+}
+
+.bottom > div > a:hover {
+  text-decoration: underline;
+}
+
+.bottom > div > span > a:hover {
+  text-decoration: underline;
 }
