@@ -10,6 +10,12 @@ const Home = () => {
     return <>
         <Head>
             <meta property='description' content='오직 집사만을 위한 쇼핑몰 쇼핑냥이 입니다' />
+            <meta property="og:type" content="website" />
+            <meta property="og:title" content="쇼핑냥이" />
+            <meta property="og:image" content="/icon.png" />
+            <meta property="og:description" content="오직 집사만을 위한 쇼핑몰 쇼핑냥이 입니다" />
+            <meta property="og:site_name" content="쇼핑냥이" />
+            <meta property="og:locale" content="ko_KR" />
         </Head>
         <div className={styles.container} >
             <div className={styles.infoContainer} >
