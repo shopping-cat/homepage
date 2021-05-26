@@ -1,0 +1,6 @@
+User-agent: googlebot
+Disallow: /item/
+Disallow: /privacy
+Disallow: /agreement
+Disallow: /orderCancelInfo
+Disallow: /support

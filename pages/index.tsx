@@ -3,19 +3,24 @@ import { APPSTORE_URL, PLAYSTORE_URL } from '../constants/value'
 import styles from '../styles/Home.module.css'
 import { IoLogoGooglePlaystore, IoLogoApple } from 'react-icons/io5';
 import { GRAY } from '../constants/styles';
+import Head from 'next/head';
 
 
 const Home = () => {
-    return (
+    return <>
+        <Head>
+            <meta property='description' content='오직 집사만을 위한 쇼핑몰 쇼핑냥이 입니다' />
+        </Head>
         <div className={styles.container} >
+
             <img
                 src='/iPhoneMockup.png'
                 alt='mockup'
                 className={styles.backgroundImage}
             />
             <div className={styles.right} >
-                <div className={styles.title}>쇼핑냥이</div>
-                <div className={styles.subTitle}>오직 집사만을 위한 쇼핑몰</div>
+                <h1 className={styles.title}>쇼핑냥이</h1>
+                <h2 className={styles.subTitle}>오직 집사만을 위한 쇼핑몰</h2>
             </div>
             <div className={styles.left} >
 
@@ -29,7 +34,7 @@ const Home = () => {
                 </div></a>
             </div>
         </div>
-    )
+    </>
 }
 
 
