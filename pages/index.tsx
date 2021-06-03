@@ -45,24 +45,24 @@ const Home = () => {
                 <div>
                     <h3>문의</h3>
                     <a target='_blank' href="https://www.notion.so/73fcfb96cc914f6f82f254c119a034a3" >입점 안내</a>
-                    <a target='_blank' href="mailto:coderhyun476@gmail.com">이메일</a>
+                    <a target='_blank' href="mailto:alkatel@naver.com">이메일</a>
                     <a target='_blank' href="http://pf.kakao.com/_ILHqs/chat" >카카오톡</a>
-                    <a target='_blank' href="mailto:coderhyun476@gmail.com">광고 / 제휴</a>
-                    <a target='_blank' href="https://www.notion.so/e50479aa12274e3c9001ff46947aa5bf">채용</a>
+                    <a target='_blank' href="mailto:alkatel@naver.com">광고 / 제휴</a>
+                    <a target='_blank' href="https://www.notion.so/e50479aa12274e3c9001ff46947aa5bf">팀원 모집</a>
                 </div>
                 <div>
-                    <h3>쇼핑냥이</h3>
-                    <span>대표자 남궁현 | 사업자 등록번호 698-47-00632</span>
-                    <span>대표자번호 050-7465-0492</span>
+                    <h3>딥스펀지 주식회사</h3>
+                    <span>대표자 홍성욱 | 사업자 등록번호 131411-0441255</span>
+                    <span>대표자번호 010-6613-0703</span>
                     <span>통신판매업</span>
-                    <span  >
+                    <span>
                         <a target='_blank' href="https://shoppingcat.kr/privacy">개인정보 처리방침</a>
                         <span style={{ color: GRAY }} > | </span>
                         <a target='_blank' href="https://shoppingcat.kr/agreement">서비스 이용약관</a>
                         <span style={{ color: GRAY }} > | </span>
                         <a target='_blank' href="https://shoppingcat.kr/orderCancelInfo">주문/교환/환불 안내</a>
                     </span>
-                    <span>@ 2021 SHOPPINGCAT All rights reserved</span>
+                    <span>@ 2021 DeepSponge All rights reserved</span>
                 </div>
             </div>
         </div>

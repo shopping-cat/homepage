@@ -5,14 +5,14 @@
 }
 .infoContainer {
   width: 100vw;
-  height: 100vh;
+  height: 95vh;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 .backgroundImage {
   width: 100vw;
-  height:100vh;
+  height:95vh;
   object-fit: contain;
 }
 .right {
@@ -38,7 +38,7 @@
 }
 .left {
   position: absolute;
-  bottom: 10%;
+  bottom: 15%;
   left: 10%;
   flex-direction: column;
 }
