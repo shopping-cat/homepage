@@ -54,6 +54,7 @@ const Home = () => {
                     <h3>딥스펀지 주식회사</h3>
                     <span>대표자 홍성욱 | 사업자 등록번호 131411-0441255</span>
                     <span>대표자번호 010-6613-0703</span>
+                    <span>사업장주소 서울특별시 강남구 테헤란로44길 8, 6층 57-2호</span>
                     <span>통신판매업</span>
                     <span>
                         <a target='_blank' href="https://shoppingcat.kr/privacy">개인정보 처리방침</a>
