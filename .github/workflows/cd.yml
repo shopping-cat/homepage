@@ -1,0 +1,35 @@
+name: CD
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ['main']
+
+jobs:
+  build-and-deploy:
+    strategy:
+      matrix:
+        platform: [ubuntu-latest]
+        node: ['14']
+    name: Node ${{ matrix.node }} (${{ matrix.platform }})
+    runs-on: ${{ matrix.platform }}
+
+    steps:
+      - uses: actions/checkout@main
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Install packages and build
+        run: |
+          npm ci
+          npm run build
+
+      - name: Copy CNAME
+        run: cp ./CNAME ./out/CNAME
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
